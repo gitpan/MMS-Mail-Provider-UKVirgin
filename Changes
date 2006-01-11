@@ -1,5 +1,7 @@
 Revision history for MMS-Mail-Provider-UKVirgin
 
+0.02    11-Jan-2006 / 00:10
+        Added missing dependancies in Makefile.PL
 0.01    09-Jan-2006 / 16:10
         First version, released on an unsuspecting world.
 
