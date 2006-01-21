@@ -4,7 +4,7 @@ NAME
     network.
 
 VERSION
-    Version 0.01
+    Version 0.03
 
 SYNOPSIS
     This class provides a parse method for parsing an MMS::Mail::Message

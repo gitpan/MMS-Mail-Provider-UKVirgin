@@ -13,11 +13,11 @@ MMS::Mail::Provider::UKVirgin - This provides a class for parsing an MMS::Mail::
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -111,7 +111,6 @@ sub parse {
 
   my $text=undef;
   foreach my $element (@{$parsed->attachments}) {
-    print STDERR "TYPE:".$element->mime_type."\n";
     if ($element->mime_type eq 'text/plain') {
       my $header = $element->head;
       if ((defined $header->recommended_filename) && ($header->recommended_filename eq 'mms.txt')) {
