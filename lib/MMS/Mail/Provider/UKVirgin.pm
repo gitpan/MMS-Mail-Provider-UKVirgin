@@ -9,15 +9,15 @@ use MMS::Mail::Message::Parsed;
 
 =head1 NAME
 
-MMS::Mail::Provider::UKVirgin - This provides a class for parsing an MMS::Mail::Message object that has been sent via the UK T-Mobile network.
+MMS::Mail::Provider::UKVirgin - This provides a class for parsing an MMS::Mail::Message object that has been sent via the UK Virgin network.
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 
